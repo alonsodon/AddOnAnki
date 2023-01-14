@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogoGaudete</class>
+ <widget class="QDialog" name="DialogoGaudete">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1038</width>
+    <height>812</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>355</width>
+    <height>200</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="6" column="2">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Pie de la tarjeta:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout_8">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Selecciona un idioma:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="cbx_idiomas"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_corpus">
+       <property name="text">
+        <string>Indexar Corpus</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="9" column="2">
+    <widget class="QLabel" name="lbl_sinonimos">
+     <property name="text">
+      <string>Sinónimos / Antónimos:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="2">
+    <widget class="QCheckBox" name="chk_audio">
+     <property name="text">
+      <string>Incluir audio</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1" rowspan="12">
+    <widget class="QScrollArea" name="sll_ejemplos">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-803</y>
+        <width>484</width>
+        <height>1376</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QRadioButton" name="rbn_ejemplo0">
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">btng_ejemplos</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QTextEdit" name="txt_ejemplo3"/>
+       </item>
+       <item row="5" column="2">
+        <widget class="QTextEdit" name="txt_ejemplo5"/>
+       </item>
+       <item row="9" column="2">
+        <widget class="QTextEdit" name="txt_ejemplo9"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QRadioButton" name="rbn_ejemplo1">
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">btng_ejemplos</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QRadioButton" name="rbn_ejemplo5">
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">btng_ejemplos</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="10" column="0">
+        <widget class="QRadioButton" name="rbn_ejemplo10">
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">btng_ejemplos</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QRadioButton" name="rbn_ejemplo7">
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">btng_ejemplos</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QRadioButton" name="rbn_ejemplo6">
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">btng_ejemplos</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QRadioButton" name="rbn_ejemplo9">
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">btng_ejemplos</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="13" column="0">
+        <widget class="QRadioButton" name="rbn_ejemplo13">
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">btng_ejemplos</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="14" column="0">
+        <widget class="QRadioButton" name="rbn_ejemplo14">
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">btng_ejemplos</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QTextEdit" name="txt_ejemplo7"/>
+       </item>
+       <item row="14" column="2">
+        <widget class="QTextEdit" name="txt_ejemplo14"/>
+       </item>
+       <item row="12" column="0">
+        <widget class="QRadioButton" name="rbn_ejemplo12">
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">btng_ejemplos</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="13" column="2">
+        <widget class="QTextEdit" name="txt_ejemplo13"/>
+       </item>
+       <item row="12" column="2">
+        <widget class="QTextEdit" name="txt_ejemplo12"/>
+       </item>
+       <item row="11" column="0">
+        <widget class="QRadioButton" name="rbn_ejemplo11">
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">btng_ejemplos</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="11" column="2">
+        <widget class="QTextEdit" name="txt_ejemplo11"/>
+       </item>
+       <item row="10" column="2">
+        <widget class="QTextEdit" name="txt_ejemplo10"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QRadioButton" name="rbn_ejemplo3">
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">btng_ejemplos</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QRadioButton" name="rbn_ejemplo4">
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">btng_ejemplos</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="8" column="2">
+        <widget class="QTextEdit" name="txt_ejemplo8"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QRadioButton" name="rbn_ejemplo2">
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">btng_ejemplos</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="6" column="2">
+        <widget class="QTextEdit" name="txt_ejemplo6"/>
+       </item>
+       <item row="1" column="2">
+        <widget class="QTextEdit" name="txt_ejemplo1"/>
+       </item>
+       <item row="8" column="0">
+        <widget class="QRadioButton" name="rbn_ejemplo8">
+         <property name="text">
+          <string/>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">btng_ejemplos</string>
+         </attribute>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="QTextEdit" name="txt_ejemplo4"/>
+       </item>
+       <item row="2" column="2">
+        <widget class="QTextEdit" name="txt_ejemplo2"/>
+       </item>
+       <item row="0" column="2">
+        <widget class="QTextEdit" name="txt_ejemplo0"/>
+       </item>
+       <item row="15" column="2">
+        <layout class="QHBoxLayout" name="horizontalLayout_9">
+         <item>
+          <widget class="QPushButton" name="btn_ejemplos_retrocede">
+           <property name="text">
+            <string>&lt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_ejemplos_avanza">
+           <property name="text">
+            <string>&gt;</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item row="11" column="2">
+    <widget class="QLabel" name="lbl_definicion">
+     <property name="text">
+      <string>Definición:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="2">
+    <widget class="QLineEdit" name="line_sinonimos"/>
+   </item>
+   <item row="8" column="2">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QCheckBox" name="chk_footer2">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="txt_footer2"/>
+     </item>
+    </layout>
+   </item>
+   <item row="14" column="2">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="btn_cancelar">
+       <property name="text">
+        <string>Cancelar</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_anadir">
+       <property name="text">
+        <string>Añadir</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Palabra o expresión regular:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="line_palabra_buscar"/>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="sbn_cantidad_ejemplos">
+       <property name="minimum">
+        <number>3</number>
+       </property>
+       <property name="maximum">
+        <number>15</number>
+       </property>
+       <property name="value">
+        <number>5</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_buscar">
+       <property name="text">
+        <string>Buscar</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="2">
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <widget class="QCheckBox" name="chk_header1">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="txt_header1"/>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="2">
+    <widget class="QTextEdit" name="txt_huecos"/>
+   </item>
+   <item row="7" column="2">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QCheckBox" name="chk_footer1">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="txt_footer1"/>
+     </item>
+    </layout>
+   </item>
+   <item row="12" column="2">
+    <widget class="QLineEdit" name="line_definicion"/>
+   </item>
+   <item row="2" column="2">
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QCheckBox" name="chk_header2">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="txt_header2"/>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="2">
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Fotograma:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_fotogramas">
+         <property name="text">
+          <string>+</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="frm_fotograma">
+       <property name="minimumSize">
+        <size>
+         <width>355</width>
+         <height>120</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Encabezado de la tarjeta:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="label_5">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>TFG &quot;Apoyo al estudio de idiomas mediante tarjetas multimedia&quot; @ ASG 2023</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>line_palabra_buscar</tabstop>
+  <tabstop>cbx_idiomas</tabstop>
+  <tabstop>sbn_cantidad_ejemplos</tabstop>
+  <tabstop>btn_buscar</tabstop>
+  <tabstop>rbn_ejemplo0</tabstop>
+  <tabstop>txt_ejemplo0</tabstop>
+  <tabstop>rbn_ejemplo1</tabstop>
+  <tabstop>txt_ejemplo1</tabstop>
+  <tabstop>rbn_ejemplo2</tabstop>
+  <tabstop>txt_ejemplo2</tabstop>
+  <tabstop>rbn_ejemplo3</tabstop>
+  <tabstop>txt_ejemplo3</tabstop>
+  <tabstop>rbn_ejemplo4</tabstop>
+  <tabstop>txt_ejemplo4</tabstop>
+  <tabstop>rbn_ejemplo5</tabstop>
+  <tabstop>txt_ejemplo5</tabstop>
+  <tabstop>rbn_ejemplo6</tabstop>
+  <tabstop>txt_ejemplo6</tabstop>
+  <tabstop>rbn_ejemplo7</tabstop>
+  <tabstop>txt_ejemplo7</tabstop>
+  <tabstop>rbn_ejemplo8</tabstop>
+  <tabstop>txt_ejemplo8</tabstop>
+  <tabstop>rbn_ejemplo9</tabstop>
+  <tabstop>txt_ejemplo9</tabstop>
+  <tabstop>rbn_ejemplo10</tabstop>
+  <tabstop>txt_ejemplo10</tabstop>
+  <tabstop>rbn_ejemplo11</tabstop>
+  <tabstop>txt_ejemplo11</tabstop>
+  <tabstop>rbn_ejemplo12</tabstop>
+  <tabstop>txt_ejemplo12</tabstop>
+  <tabstop>rbn_ejemplo13</tabstop>
+  <tabstop>txt_ejemplo13</tabstop>
+  <tabstop>rbn_ejemplo14</tabstop>
+  <tabstop>txt_ejemplo14</tabstop>
+  <tabstop>btn_ejemplos_retrocede</tabstop>
+  <tabstop>btn_ejemplos_avanza</tabstop>
+  <tabstop>chk_header1</tabstop>
+  <tabstop>txt_header1</tabstop>
+  <tabstop>chk_header2</tabstop>
+  <tabstop>txt_header2</tabstop>
+  <tabstop>txt_huecos</tabstop>
+  <tabstop>btn_fotogramas</tabstop>
+  <tabstop>chk_footer1</tabstop>
+  <tabstop>txt_footer1</tabstop>
+  <tabstop>chk_footer2</tabstop>
+  <tabstop>txt_footer2</tabstop>
+  <tabstop>line_sinonimos</tabstop>
+  <tabstop>line_definicion</tabstop>
+  <tabstop>chk_audio</tabstop>
+  <tabstop>btn_cancelar</tabstop>
+  <tabstop>btn_anadir</tabstop>
+  <tabstop>sll_ejemplos</tabstop>
+  <tabstop>btn_corpus</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="btng_ejemplos">
+   <property name="exclusive">
+    <bool>true</bool>
+   </property>
+  </buttongroup>
+  <buttongroup name="btng_idiomas">
+   <property name="exclusive">
+    <bool>true</bool>
+   </property>
+  </buttongroup>
+ </buttongroups>
+</ui>
